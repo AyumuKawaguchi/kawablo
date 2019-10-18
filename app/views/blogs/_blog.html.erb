@@ -1,0 +1,21 @@
+
+<div class ="contents">
+<% @blog.each do |blog| %>
+<p><%= blog.text %></p>
+<% end %>
+</div>
+
+    <ul class="more_list">
+
+        <li>
+          <%= link_to '編集', edit_blog_path, method: :get %>
+        </li>
+        <li>
+          <%= link_to '削除',blog_path, method: :delete %>
+        </li>
+      <% end %>
+    </ul>
+
+    <%= simple_format(blog.text) %>
+ 
+</div>

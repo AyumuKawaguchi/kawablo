@@ -1,0 +1,23 @@
+.message.box{
+  height:300px;
+  width:500px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.contents row{
+  height:300px;
+  width:500px;
+  
+}
+h1{
+  font-size:40px;
+  color:red;
+  margin: 0 auto;
+  text-align:center;
+  padding-top:20px;
+}
+
+.button{
+  float:right;
+}
